@@ -41,29 +41,28 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'REPLACE_WITH_YOUR_WEB_API_KEY',
-    appId: 'REPLACE_WITH_YOUR_WEB_APP_ID',
-    messagingSenderId: 'REPLACE_WITH_YOUR_MESSAGING_SENDER_ID',
-    projectId: 'REPLACE_WITH_YOUR_PROJECT_ID',
-    authDomain: 'REPLACE_WITH_YOUR_AUTH_DOMAIN',
-    storageBucket: 'REPLACE_WITH_YOUR_STORAGE_BUCKET',
-    measurementId: 'REPLACE_WITH_YOUR_MEASUREMENT_ID',
+    apiKey: 'AIzaSyDJ3axS29C4X_2YEogQNO_Xcoz1KzhW_8M',
+    appId: '1:884841159367:web:189962f8e34b6a21fb7ce2',
+    messagingSenderId: '884841159367',
+    projectId: 'video-call-app-m-001',
+    authDomain: 'video-call-app-m-001.firebaseapp.com',
+    storageBucket: 'video-call-app-m-001.firebasestorage.app',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'REPLACE_WITH_YOUR_ANDROID_API_KEY',
     appId: 'REPLACE_WITH_YOUR_ANDROID_APP_ID',
     messagingSenderId: 'REPLACE_WITH_YOUR_MESSAGING_SENDER_ID',
-    projectId: 'REPLACE_WITH_YOUR_PROJECT_ID',
-    storageBucket: 'REPLACE_WITH_YOUR_STORAGE_BUCKET',
+    projectId: 'video-call-app-m-001',
+    storageBucket: 'video-call-app-m-001.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'REPLACE_WITH_YOUR_IOS_API_KEY',
     appId: 'REPLACE_WITH_YOUR_IOS_APP_ID',
     messagingSenderId: 'REPLACE_WITH_YOUR_MESSAGING_SENDER_ID',
-    projectId: 'REPLACE_WITH_YOUR_PROJECT_ID',
-    storageBucket: 'REPLACE_WITH_YOUR_STORAGE_BUCKET',
+    projectId: 'video-call-app-m-001',
+    storageBucket: 'video-call-app-m-001.firebasestorage.app',
     iosBundleId: 'com.example.videoCallWebApp',
   );
 
@@ -71,8 +70,8 @@ class DefaultFirebaseOptions {
     apiKey: 'REPLACE_WITH_YOUR_MACOS_API_KEY',
     appId: 'REPLACE_WITH_YOUR_MACOS_APP_ID',
     messagingSenderId: 'REPLACE_WITH_YOUR_MESSAGING_SENDER_ID',
-    projectId: 'REPLACE_WITH_YOUR_PROJECT_ID',
-    storageBucket: 'REPLACE_WITH_YOUR_STORAGE_BUCKET',
+    projectId: 'video-call-app-m-001',
+    storageBucket: 'video-call-app-m-001.firebasestorage.app',
     iosBundleId: 'com.example.videoCallWebApp',
   );
 
@@ -80,9 +79,8 @@ class DefaultFirebaseOptions {
     apiKey: 'REPLACE_WITH_YOUR_WINDOWS_API_KEY',
     appId: 'REPLACE_WITH_YOUR_WINDOWS_APP_ID',
     messagingSenderId: 'REPLACE_WITH_YOUR_MESSAGING_SENDER_ID',
-    projectId: 'REPLACE_WITH_YOUR_PROJECT_ID',
-    authDomain: 'REPLACE_WITH_YOUR_AUTH_DOMAIN',
-    storageBucket: 'REPLACE_WITH_YOUR_STORAGE_BUCKET',
-    measurementId: 'REPLACE_WITH_YOUR_MEASUREMENT_ID',
+    projectId: 'video-call-app-m-001',
+    authDomain: 'video-call-app-m-001.firebaseapp.com',
+    storageBucket: 'video-call-app-m-001.firebasestorage.app',
   );
 }
