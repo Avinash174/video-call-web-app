@@ -1,0 +1,63 @@
+Analyzing video_call_web_app...                                 
+
+  error • A value of type 'Object?' can't be assigned to a variable of type 'Map<String, dynamic>?' • lib/data/services/signaling_service.dart:53:36 • invalid_assignment
+   info • Don't invoke 'print' in production code • lib/data/services/signaling_service.dart:158:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/data/services/signaling_service.dart:178:9 • avoid_print
+warning • Unused import: 'routes/app_routes.dart' • lib/main.dart:7:8 • unused_import
+  error • The name 'navigator' is defined in the libraries 'package:flutter_webrtc/src/native/factory_impl.dart (via package:flutter_webrtc/flutter_webrtc.dart)' and 'package:get/get_navigation/src/extension_navigation.dart (via package:get/get.dart)' • lib/modules/call/controllers/call_controller.dart:67:26 • ambiguous_import
+   info • Don't invoke 'print' in production code • lib/modules/call/controllers/call_controller.dart:87:7 • avoid_print
+  error • The name 'navigator' is defined in the libraries 'package:flutter_webrtc/src/native/factory_impl.dart (via package:flutter_webrtc/flutter_webrtc.dart)' and 'package:get/get_navigation/src/extension_navigation.dart (via package:get/get.dart)' • lib/modules/call/controllers/call_controller.dart:111:28 • ambiguous_import
+  error • The name 'navigator' is defined in the libraries 'package:flutter_webrtc/src/native/factory_impl.dart (via package:flutter_webrtc/flutter_webrtc.dart)' and 'package:get/get_navigation/src/extension_navigation.dart (via package:get/get.dart)' • lib/modules/call/controllers/call_controller.dart:116:28 • ambiguous_import
+   info • Don't invoke 'print' in production code • lib/modules/call/controllers/call_controller.dart:126:7 • avoid_print
+  error • The type 'Future<List<RTCRtpSender>>' used in the 'for' loop must implement 'Iterable' • lib/modules/call/controllers/call_controller.dart:134:26 • for_in_of_invalid_type
+  error • The element type 'VideoViewWidget' can't be assigned to the list type 'Widget' • lib/modules/call/views/call_view.dart:72:27 • list_element_type_not_assignable
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/call/views/call_view.dart:88:57 • deprecated_member_use
+  error • The argument type 'VideoViewWidget' can't be assigned to the parameter type 'Widget?'.  • lib/modules/call/views/call_view.dart:94:38 • argument_type_not_assignable
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/call/views/call_view.dart:155:48 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/call/views/call_view.dart:206:29 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/call/views/call_view.dart:208:48 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/call/widgets/call_controls_widget.dart:14:34 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/call/widgets/call_controls_widget.dart:18:33 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/call/widgets/call_controls_widget.dart:112:49 • deprecated_member_use
+   info • 'scale' is deprecated and shouldn't be used. Use scaleByVector3, scaleByVector4, or scaleByDouble instead • lib/modules/call/widgets/call_controls_widget.dart:124:42 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/call/widgets/call_controls_widget.dart:131:47 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/call/widgets/chat_panel_widget.dart:16:48 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/call/widgets/participant_tile_widget.dart:39:50 • deprecated_member_use
+  error • Classes can only extend other classes • lib/modules/call/widgets/video_view_widget.dart:6:31 • extends_non_class
+  error • No associated named super constructor parameter • lib/modules/call/widgets/video_view_widget.dart:13:11 • super_formal_parameter_without_associated_named
+  error • Undefined class 'Widget' • lib/modules/call/widgets/video_view_widget.dart:21:3 • undefined_class
+warning • The method doesn't override an inherited method • lib/modules/call/widgets/video_view_widget.dart:21:10 • override_on_non_overriding_member
+  error • Undefined class 'BuildContext' • lib/modules/call/widgets/video_view_widget.dart:21:16 • undefined_class
+  error • The method 'Container' isn't defined for the type 'VideoViewWidget' • lib/modules/call/widgets/video_view_widget.dart:22:12 • undefined_method
+  error • The method 'BoxDecoration' isn't defined for the type 'VideoViewWidget' • lib/modules/call/widgets/video_view_widget.dart:23:19 • undefined_method
+  error • Undefined name 'BorderRadius' • lib/modules/call/widgets/video_view_widget.dart:25:23 • undefined_identifier
+  error • The method 'BoxShadow' isn't defined for the type 'VideoViewWidget' • lib/modules/call/widgets/video_view_widget.dart:27:11 • undefined_method
+  error • Undefined name 'Colors' • lib/modules/call/widgets/video_view_widget.dart:28:20 • undefined_identifier
+  error • The name 'Offset' isn't a class • lib/modules/call/widgets/video_view_widget.dart:30:27 • creation_with_non_type
+  error • Undefined name 'Clip' • lib/modules/call/widgets/video_view_widget.dart:34:21 • undefined_identifier
+  error • The method 'Stack' isn't defined for the type 'VideoViewWidget' • lib/modules/call/widgets/video_view_widget.dart:35:14 • undefined_method
+  error • Undefined name 'StackFit' • lib/modules/call/widgets/video_view_widget.dart:36:14 • undefined_identifier
+  error • The method 'Positioned' isn't defined for the type 'VideoViewWidget' • lib/modules/call/widgets/video_view_widget.dart:43:11 • undefined_method
+  error • The method 'Container' isn't defined for the type 'VideoViewWidget' • lib/modules/call/widgets/video_view_widget.dart:46:20 • undefined_method
+  error • Undefined name 'EdgeInsets' • lib/modules/call/widgets/video_view_widget.dart:47:30 • undefined_identifier
+  error • The method 'BoxDecoration' isn't defined for the type 'VideoViewWidget' • lib/modules/call/widgets/video_view_widget.dart:48:27 • undefined_method
+  error • Undefined name 'Colors' • lib/modules/call/widgets/video_view_widget.dart:49:24 • undefined_identifier
+  error • Undefined name 'BorderRadius' • lib/modules/call/widgets/video_view_widget.dart:50:31 • undefined_identifier
+  error • The method 'Row' isn't defined for the type 'VideoViewWidget' • lib/modules/call/widgets/video_view_widget.dart:52:22 • undefined_method
+  error • Undefined name 'MainAxisSize' • lib/modules/call/widgets/video_view_widget.dart:53:31 • undefined_identifier
+  error • The name 'Icon' isn't a class • lib/modules/call/widgets/video_view_widget.dart:56:27 • creation_with_non_type
+  error • Undefined name 'Icons' • lib/modules/call/widgets/video_view_widget.dart:56:32 • undefined_identifier
+  error • The name 'SizedBox' isn't a class • lib/modules/call/widgets/video_view_widget.dart:57:27 • creation_with_non_type
+  error • The method 'Text' isn't defined for the type 'VideoViewWidget' • lib/modules/call/widgets/video_view_widget.dart:59:19 • undefined_method
+  error • The name 'TextStyle' isn't a class • lib/modules/call/widgets/video_view_widget.dart:61:34 • creation_with_non_type
+  error • Undefined name 'Colors' • lib/modules/call/widgets/video_view_widget.dart:62:30 • undefined_identifier
+  error • Undefined name 'FontWeight' • lib/modules/call/widgets/video_view_widget.dart:64:35 • undefined_identifier
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/home/controllers/home_controller.dart:29:43 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/home/views/home_view.dart:47:43 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/home/views/home_view.dart:53:41 • deprecated_member_use
+   info • 'scale' is deprecated and shouldn't be used. Use scaleByVector3, scaleByVector4, or scaleByDouble instead • lib/modules/home/views/home_view.dart:64:33 • deprecated_member_use
+   info • 'scale' is deprecated and shouldn't be used. Use scaleByVector3, scaleByVector4, or scaleByDouble instead • lib/modules/home/views/home_view.dart:117:33 • deprecated_member_use
+   info • The constant name 'INITIAL' isn't a lowerCamelCase identifier • lib/routes/app_pages.dart:9:16 • constant_identifier_names
+   info • The constant name 'HOME' isn't a lowerCamelCase identifier • lib/routes/app_routes.dart:2:16 • constant_identifier_names
+   info • The constant name 'CALL' isn't a lowerCamelCase identifier • lib/routes/app_routes.dart:3:16 • constant_identifier_names
+

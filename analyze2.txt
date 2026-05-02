@@ -1,0 +1,30 @@
+Analyzing video_call_web_app...                                 
+
+   info • Don't invoke 'print' in production code • lib/data/services/signaling_service.dart:158:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/data/services/signaling_service.dart:178:9 • avoid_print
+warning • Unused import: 'routes/app_routes.dart' • lib/main.dart:7:8 • unused_import
+   info • Don't invoke 'print' in production code • lib/modules/call/controllers/call_controller.dart:87:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/modules/call/controllers/call_controller.dart:126:7 • avoid_print
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/call/views/call_view.dart:88:57 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/call/views/call_view.dart:155:48 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/call/views/call_view.dart:206:29 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/call/views/call_view.dart:208:48 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/call/widgets/call_controls_widget.dart:14:34 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/call/widgets/call_controls_widget.dart:18:33 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/call/widgets/call_controls_widget.dart:112:49 • deprecated_member_use
+   info • 'scale' is deprecated and shouldn't be used. Use scaleByVector3, scaleByVector4, or scaleByDouble instead • lib/modules/call/widgets/call_controls_widget.dart:124:42 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/call/widgets/call_controls_widget.dart:131:47 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/call/widgets/chat_panel_widget.dart:16:48 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/call/widgets/participant_tile_widget.dart:39:50 • deprecated_member_use
+warning • Unused import: 'package:get/get.dart' • lib/modules/call/widgets/video_view_widget.dart:2:8 • unused_import
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/call/widgets/video_view_widget.dart:28:33 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/call/widgets/video_view_widget.dart:49:37 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/home/controllers/home_controller.dart:29:43 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/home/views/home_view.dart:47:43 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/modules/home/views/home_view.dart:53:41 • deprecated_member_use
+   info • 'scale' is deprecated and shouldn't be used. Use scaleByVector3, scaleByVector4, or scaleByDouble instead • lib/modules/home/views/home_view.dart:64:33 • deprecated_member_use
+   info • 'scale' is deprecated and shouldn't be used. Use scaleByVector3, scaleByVector4, or scaleByDouble instead • lib/modules/home/views/home_view.dart:117:33 • deprecated_member_use
+   info • The constant name 'INITIAL' isn't a lowerCamelCase identifier • lib/routes/app_pages.dart:9:16 • constant_identifier_names
+   info • The constant name 'HOME' isn't a lowerCamelCase identifier • lib/routes/app_routes.dart:2:16 • constant_identifier_names
+   info • The constant name 'CALL' isn't a lowerCamelCase identifier • lib/routes/app_routes.dart:3:16 • constant_identifier_names
+
